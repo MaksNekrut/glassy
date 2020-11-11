@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(161,181,170,1);;
+}
+
+.form-container {
+    width: 800px;
+    min-height: 600px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: rgba(248,247,244,1);
+    box-shadow: 0px 3px 79px 18px rgba(237, 103, 7, 0.2);
+}
+
+.formTitle {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+}
+
+input {
+    padding: 0 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 3px;
+    height: 2rem;
+    width: 100%;
+}
+
+button {
+    margin-top: 1rem;
+    height: 2rem;
+    background-color: rgba(230,88,60,1);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+#formInfo {
+    text-align: center;
+    padding-top: 2rem;
+}
